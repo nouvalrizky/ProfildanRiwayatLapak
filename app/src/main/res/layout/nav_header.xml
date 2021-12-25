@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="225dp"
+    android:background="@drawable/android___2"
+    android:gravity="bottom"
+    android:padding="18dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/foto_admin"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/sinar_plastik" />
+
+    <TextView
+        android:layout_marginTop="12dp"
+        android:id="@+id/nama_admin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nouval Rizky"
+        android:fontFamily="@font/bold"
+        android:textColor="@color/blackfont"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:layout_marginTop="-1dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/medium"
+        android:text="Akun Pegawai"
+        android:textColor="@color/dark_grey"
+        android:textSize="16sp"/>
+
+</LinearLayout>

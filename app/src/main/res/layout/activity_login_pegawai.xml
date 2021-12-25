@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginPegawaiActivity"
+    android:background="@drawable/android___1"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="290dp"
+        android:padding="28dp"
+        android:gravity="center_vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_marginLeft="-10dp"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/logo_sipasar_1"/>
+
+
+            <TextView
+                android:layout_marginTop="-6dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dashboard siPasar"
+                android:textColor="@color/blackfont"
+                android:fontFamily="@font/semibold"
+                android:textSize="24sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Untuk Pegawai"
+                android:textColor="@color/dark_grey"
+                android:fontFamily="@font/medium"
+                android:textSize="18sp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bgradius"
+        android:elevation="12dp"
+        android:orientation="vertical"
+        android:paddingLeft="28dp"
+        android:paddingTop="38dp"
+        android:paddingRight="28dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bold"
+            android:text="Login"
+            android:textColor="@color/blackfont"
+            android:textSize="20sp"
+            android:layout_marginBottom="20dp"/>
+
+        <EditText
+            android:id="@+id/inputEmail"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:drawableStart="@drawable/custom_email_icon"
+            android:drawablePadding="12dp"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:hint="Username"
+            android:fontFamily="@font/regular"
+            android:textSize="16sp"
+            android:inputType="textVisiblePassword|textNoSuggestions"
+            android:background="@drawable/custom_input"
+            android:layout_marginBottom="16dp"/>
+
+        <EditText
+            android:id="@+id/inputPassword"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:drawableStart="@drawable/custom_lock_icon"
+            android:drawablePadding="12dp"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:hint="Password"
+            android:fontFamily="@font/regular"
+            android:textSize="16sp"
+            android:textColorHint="#959494"
+            android:inputType="textPassword"
+            android:background="@drawable/custom_input"/>
+
+
+        <Button
+            android:id="@+id/toggle_pass"
+            android:layout_gravity="right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/ic_invisible"
+            android:paddingRight="8dp"
+            android:text="Show password"
+            android:fontFamily="@font/light"
+            android:focusable="false"
+            android:textSize="14sp"
+            android:textAllCaps="false"
+            android:letterSpacing="0"
+            android:textColor="@color/dark_grey"
+            android:background="@drawable/custom_show_password">
+
+        </Button>
+
+
+
+        <Button
+            android:id="@+id/buttonLogin"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="32dp"
+            android:text="Next"
+            app:backgroundTint="@color/blue_primary"
+            android:textAllCaps="false"
+            android:fontFamily="@font/bold"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:letterSpacing="0"
+            android:background="@drawable/custom_button"/>
+
+        
+        <TextView
+            android:paddingBottom="4dp"
+            android:gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Develop by Nouval Rizky"
+            android:fontFamily="@font/light"
+            android:textAlignment="center"
+            android:textSize="12sp"
+            tools:ignore="RtlCompat"
+            android:textColor="@color/dark_grey"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
